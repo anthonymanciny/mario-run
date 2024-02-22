@@ -67,17 +67,20 @@ button:hover{
     bottom: 0;
 }
 
-.clouds{
+.clouds {
     width: 550px;
     position: absolute;
     top: 0;
     animation: clouds-animation 20s infinite linear;
 }
 
-@keyframes clouds-animation{
-
-   
-
+@keyframes clouds-animation {
+    from {
+        right: -550px;
+    }
+    to {
+        right: 100%;
+    }
 }
 .pipe-animation{
     animation: pipe-animation 2s infinite linear;
